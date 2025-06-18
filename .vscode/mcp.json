@@ -1,0 +1,17 @@
+{
+  "servers": {
+    "promptx": {
+      // 指定使用 npx 运行 promptx 服务
+      "command": "npx",
+      // 启动参数配置
+      "args": [
+        "-y",                               // 自动确认
+        "-f",                               // 强制刷新缓存
+        "--registry",                       // 指定镜像源
+        "https://registry.npmjs.org",       // 使用官方镜像
+        "dpml-prompt@beta",                 // 使用稳定测试版
+        "mcp-server"                        // 启动服务
+      ]
+    }
+  }
+}

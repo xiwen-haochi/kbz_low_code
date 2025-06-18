@@ -1,0 +1,16 @@
+# 核心包
+fastapi==0.115.13
+pydantic==2.11.7
+uvicorn==0.34.3
+pydantic-settings==2.9.0
+
+# 数据库
+sqlalchemy== 2.0.41
+aiomysql==0.2.0
+
+# 缓存
+redis==6.2.0
+
+# 工具
+python-dotenv==1.1.0
+
