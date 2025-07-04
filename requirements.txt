@@ -7,6 +7,8 @@ pydantic-settings==2.9.0
 # 数据库
 sqlalchemy== 2.0.41
 aiomysql==0.2.0
+alembic==1.16.2
+mysqlclient==2.2.7
 
 # 缓存
 redis==6.2.0

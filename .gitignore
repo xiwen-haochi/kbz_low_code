@@ -1,4 +1,9 @@
 design.md
+design*.md
+
+
+# 迁移
+alembic.ini
 
 
 # Byte-compiled / optimized / DLL files
